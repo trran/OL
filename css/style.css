@@ -1,0 +1,66 @@
+:root {
+  --color-background:#19B5FE;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-background);
+  color: #5C656D;  
+  font-family: monospace;
+}
+
+.container {
+  width: 50vw;
+  height: 100vh;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #F3F6F8;
+}
+
+.container-action {
+  padding-top: 10px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  width: 200px;
+  height: 200px;  
+  padding: 40px;
+  background-color: var(--color-background);
+  font-size: 100px;
+  font-weight: normal;
+  display: inline-block;
+  color: white;
+}
+
+.bnt-submit {
+  background-color: var(--color-background);
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+}
+
+.remenber
+{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.remenber a {
+  text-decoration: none;
+}
+
+@media screen and (max-width:900px)
+{
+  .container {
+    width: 100vw;
+  }    
+}
